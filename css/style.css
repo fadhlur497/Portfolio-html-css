@@ -285,10 +285,9 @@ header .navbar ul li a:hover{
 
 .portfolio .box-container .box{
     height: 20rem;
-    width:26rem;
+    width:36rem;
     border-radius: 1rem;
-    margin:2rem;
-    cursor: pointer;
+    margin:0rem 4rem 11rem 2rem;
 }
 
 .portfolio .box-container .box img{
@@ -297,6 +296,13 @@ header .navbar ul li a:hover{
     object-fit: cover;
 }
 
+.portfolio .box-container .box h3{
+    font-size: 2rem;
+    text-align: center;
+    color:var(--yellow);
+    padding:1rem 0;
+    font-weight: normal;
+}
 
 .contact .row{
     display: flex;
